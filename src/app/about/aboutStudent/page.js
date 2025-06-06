@@ -8,12 +8,12 @@ export default function AboutStudent() {
       router.push(name);
     }
   return (
-    <div >
+    <div>
       <main>
-         <h1> About student page  </h1>
+        <h1> About student page  </h1>
       </main>
       <footer>
-           footer section <button onClick={() => goToHome('/')}>go to home</button>
+        footer section <button onClick={() => goToHome('/')}>go to home</button>
       </footer>
     </div>
   );
